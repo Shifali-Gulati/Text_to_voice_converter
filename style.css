@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.hero{
+    height:100%;
+    width:100%;
+    background-color:brown;
+    position: relative;
+}
+.hero2{
+    height:60%;
+    width:70%;
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:lightgray;
+    padding: 4px;
+}
+  .hero2 h1{
+    
+    color:chocolate;
+    margin-bottom: 20px;
+  } 
+  .hero2 h1 span{
+    color: black;
+  } 
+Textarea{
+ height: 50%;
+ width:50%;
+ outline: 0;
+ padding:10px;
+}
+.option{
+    display: flex;
+
+    margin-top: 10px;
+    gap: 20px;
+    align-items: center;
+}
+button{
+    padding: 6px;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: cornsilk;
+    font-size: 20px;
+    color:black;
+} 
